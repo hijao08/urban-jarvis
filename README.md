@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Urban Jarvis Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app).
+
+## Configuração do Ambiente
+
+1. Crie um arquivo `.env` na raiz do projeto
+2. Copie o conteúdo abaixo para o arquivo `.env`:
+
+```
+REACT_APP_API_URL=http://localhost:3001/api
+```
+
+3. Ajuste o valor da variável `REACT_APP_API_URL` de acordo com o ambiente (desenvolvimento, produção, etc)
 
 ## Available Scripts
 
